@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(70deg, #006778, #0093AB, #00AFC1, #FFD124);
+}
+
+.nav{
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    border-bottom: 0.1px solid white;
+}
+
+.a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Georgia, serif;
+}
+
+header{
+    padding: 100px;
+}
+
+.h1{
+    font-family: Georgia, serif;
+    font-size: 60px
+}
+
+p{
+    font-size: 25px;
+}
+
+
+.secao1{
+    padding: 100px;
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+}
+.h2-a{
+    font-size: 40px;
+}
+.ul{
+    font-size: 30px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.art{
+    gap: 30px;
+    display: flex;
+    justify-content: flex-end;
+}
+.img1{
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+}
+
+.secao2{
+    padding: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.h2-b{
+    font-size: 40px;
+}
+
+.secaoA{
+    padding: 100px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid white;
+}
+.button, .input{
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.footer{
+    padding: 50px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.a1{
+    text-decoration: none;
+    font-size: 20px;
+}
